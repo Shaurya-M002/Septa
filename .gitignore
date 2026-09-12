@@ -1,0 +1,35 @@
+build/
+updates/
+DerivedData/
+.vscode
+.DS_Store
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+buildServer.json
+ExportOptions.plist
+HexCore/.build
+HexCore/.swiftpm/xcode/xcuserdata/
+FluidAudio/
+node_modules/
+.npm-cache/
+.tmp/
+bin/
+
+# Sidecar runtime (weights are too large for git)
+sidecar/.venv/
+sidecar/models/
+sidecar/dist/
+sidecar/logs/
+sidecar/.backend
+sidecar/.python-version
+.venv/
+__pycache__/
+.pytest_cache/
+*.gguf
+*.safetensors
+.claude/
+.env
+.env.*
