@@ -1,5 +1,7 @@
 # Septa
 
+**[Download for Mac or Windows](https://shaurya-m002.github.io/Septa/)** — unzip, double-click Install.
+
 Septa is Hex with a local speech-to-text cleaner on the end.
 
 Hold a hotkey, talk, release. Whisper or Parakeet transcribes. Then a 0.6B
@@ -9,12 +11,17 @@ fillers gone, self-corrections kept, rupees and names left alone. No cloud.
 It is a fork of [Hex](https://github.com/kitlangton/Hex) 0.8.5 (MIT, Kit Langton).
 The dictation shell is Hex. The post-process is Septa.
 
-## Install on a Mac
+| | Mac | Windows |
+|---|---|---|
+| Dictation hotkey | Yes (`Septa.app`) | Not yet (Hex is macOS-only) |
+| Cleaner | Yes | Yes, same GGUF |
+| Install | [Septa-mac.zip](https://github.com/Shaurya-M002/Septa/releases/latest/download/Septa-mac.zip) | [Septa-windows.zip](https://github.com/Shaurya-M002/Septa/releases/latest/download/Septa-windows.zip) |
+
+## Install from source
 
 ```bash
 git clone https://github.com/Shaurya-M002/Septa.git
 cd Septa
-chmod +x install.sh
 ./install.sh
 ```
 

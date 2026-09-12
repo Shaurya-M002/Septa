@@ -17,6 +17,8 @@ node_modules/
 .npm-cache/
 .tmp/
 bin/
+dist-downloads/
+
 
 # Sidecar runtime (weights are too large for git)
 sidecar/.venv/
